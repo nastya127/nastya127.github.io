@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Manrope&display=swap');
+
+body{
+    background: radial-gradient(#E5E4E2 0%, #ffffff 100%);
+    font-family: Manrope, serif;
+}
+
+.nav-link{
+    color: #B2BEB5;
+}
+
+.navbar-nav .nav-link.active{
+    color: #899499;
+}
+
+.navbar-brand img{
+    width: 40px;
+}
+
+.sidebar{
+    color: #3d4244;
+    margin-right: 0; 
+    padding-right: 0;
+}
+.sidebar a{
+    color: #6c7478;
+}
+.price {
+    font-size: 14;
+    color: #9bbca4;
+}
+
+.sidebar p{
+    border-radius: 10px;
+    padding: 10px; 
+    background-color: white;
+    margin: 0;
+}
+
+.slide-text{
+    font-size: 18px;
+}
+
+.slide-text, 
+.footer-text{
+    color: #4c4747;
+    margin: auto auto;  
+}
+
+@media (max-width: 755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+footer{
+    margin-top: 1.5rem;
+    background-color: white;
+}
+
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center a{
+    text-decoration: none;
+    color: #4c4747;
+}
